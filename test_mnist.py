@@ -10,7 +10,7 @@ import pandas
 
 batch_size = 1024
 nb_classes = 10
-nb_epoch = 200
+nb_epoch = 2
 
 
 img_rows, img_cols = 28, 28

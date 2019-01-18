@@ -5,7 +5,6 @@ from keras.models import Sequential
 from keras.layers.core import Dense, Dropout, Activation, Flatten
 from keras.layers.convolutional import Conv2D, MaxPooling2D
 from keras.utils import np_utils
-import pandas
 
 
 batch_size = 1024
@@ -68,6 +67,5 @@ history = model.fit(X_train, Y_train, batch_size=batch_size, epochs=nb_epoch, ve
 
 score = model.evaluate(X_test, Y_test, verbose=0)
 
-pandas.DataFrame(history.history).to_csv("history.csv")
 
 model.save('MNIST_CNN.h5')

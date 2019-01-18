@@ -14,8 +14,8 @@ module load python/3.6.6
 module load cuda/9.0
 
 #activate the python environment that has tensorflow
-source /gpfs/gpfs/project1/gr19002-001/faa/faa_tf/bin/activate
+source /gpfs/gpfs/project1/gr19002-001/faawork/faa_tf_keras/bin/activate
 
 #ensure you go to the folder for execution of script
 cd /gpfs/gpfs/project1/gr19002-001/faawork/testing-elf/
-python test-mnist.py
+python test_mnist.py

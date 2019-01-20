@@ -5,4 +5,4 @@
 #SBATCH -t 2:00
 #SBATCH --ntasks-per-node 14
 module load singularity
-singularity exec ../i-my-tensorflow-gpu-py3.simg python test_mnist.py
+singularity exec /oasis/scratch/comet/mkandes/temp_project/singularity/images/keras-tensorflow-gpu.img python test_mnist.py

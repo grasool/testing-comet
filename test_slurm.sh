@@ -1,4 +1,5 @@
 #!/bin/bash
+#SBATCH -A rwn104
 #SBATCH -N 1
 #SBATCH -p gpu-shared
 #SBATCH --ntasks-per-node 14

@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH -N 1
-#SBATCH -p GPU
+#SBATCH -p gpu
 #SBATCH --gres=gpu:p100:2
 #SBATCH -t 2:00
 #SBATCH --ntasks-per-node 14

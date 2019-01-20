@@ -61,7 +61,7 @@ model.add(Dropout(0.5))
 model.add(Dense(nb_classes)) 
 model.add(Activation('softmax')) 
 
-#model = multi_gpu_model(model, gpus=2)
+model = multi_gpu_model(model, gpus=2)
 
 model.compile(loss='categorical_crossentropy', optimizer='adadelta', metrics=["accuracy"])
 

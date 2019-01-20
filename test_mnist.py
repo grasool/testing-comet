@@ -10,7 +10,7 @@ from keras.utils import multi_gpu_model
 
 batch_size = 1024
 nb_classes = 10
-nb_epoch = 2
+nb_epoch = 20
 
 
 img_rows, img_cols = 28, 28
